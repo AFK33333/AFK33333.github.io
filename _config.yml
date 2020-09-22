@@ -1,9 +1,27 @@
-name: "nicks-website"
-output_dir: "."
-navbar:
-  title: "Nicks Website"
-  left:
-    - text: "Home"
-      href: index.html
 
-theme: jekyll-theme-cayman
+bookdown::gitbook:
+  config:
+    toc:
+      collapse: subsection
+      scroll_highlight: yes
+      before: null
+      after: null
+    toolbar:
+      position: fixed
+    edit : null
+    download: null
+    search: yes
+    fontsettings:
+      theme: white
+      family: sans
+      size: 2
+    sharing:
+      facebook: yes
+      github: no
+      twitter: yes
+      linkedin: no
+      weibo: no
+      instapaper: no
+      vk: no
+      all: ['facebook', 'twitter', 'linkedin', 'weibo', 'instapaper']
+    info: yes
